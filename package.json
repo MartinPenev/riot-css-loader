@@ -1,0 +1,26 @@
+{
+	"name": "riot-css-loader",
+	"version": "1.0.0",
+	"description": "A loader for webpack that allows importing css files through roit css compile function",
+	"license": "MIT",
+	"repository": "MartinPenev/riot-css-loader",
+	"author": "Martin Penev",
+	"homepage": "https://github.com/MartinPenev/riot-css-loader",
+	"bugs": "https://github.com/MartinPenev/riot-css-loader/issues",
+	"main": "index.js",
+	"engines": {
+		"node": ">= 6.9.0"
+	},
+	"files": [
+		"index.js"
+	],
+	"peerDependencies": {
+		"riot-compiler": "^3.5.1",
+		"webpack": "^4.3.0"
+	},
+	"devDependencies": {
+		"path": "^0.12.7",
+		"riot-compiler": "^3.5.1",
+		"webpack": "^4.3.0"
+	}
+}
